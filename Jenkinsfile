@@ -17,7 +17,13 @@ pipeline {
             
                 }
             }
-        }    
+        }
+        
+        stage('Functional Test') {
+            steps {
+                echo 'Functional Test . . .'
+            }
+        }
     }
     
     
